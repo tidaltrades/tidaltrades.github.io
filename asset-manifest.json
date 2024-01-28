@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tidaltrades/static/css/main.e6c13ad2.css",
+    "main.js": "/tidaltrades/static/js/main.c5d8b79c.js",
+    "static/js/787.49924932.chunk.js": "/tidaltrades/static/js/787.49924932.chunk.js",
+    "index.html": "/tidaltrades/index.html",
+    "main.e6c13ad2.css.map": "/tidaltrades/static/css/main.e6c13ad2.css.map",
+    "main.c5d8b79c.js.map": "/tidaltrades/static/js/main.c5d8b79c.js.map",
+    "787.49924932.chunk.js.map": "/tidaltrades/static/js/787.49924932.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.c5d8b79c.js"
+  ]
+}
