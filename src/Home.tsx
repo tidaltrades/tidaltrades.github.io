@@ -23,8 +23,8 @@ const Home = () => {
             Welcome to Tidal Trades!
           </Heading>
           <Text fontSize="lg" mb="4">
-            Your go-to source for insightful financial analysis and top market
-            picks. Discover the future of trading with us.
+            Your go-to source for insightful financial analysis and premier market
+            research. Discover the future of trading with us. The markets are gnarly, make sure you know how to surf! 
           </Text>
         </Box>
 
@@ -33,12 +33,11 @@ const Home = () => {
           {/* Blog Post Section */}
           <Box flex="2">
             <Heading as="h1" mb="4">
-              NVIDIA Stock Performance Analysis
+              Amazon crushes another quarter, as expected 
             </Heading>
             <Text fontSize="lg" mb="4">
-              NVIDIA has been a standout in the tech sector, showing remarkable
-              growth in stock value over the past year. Their advancements in AI
-              and gaming technology continue to drive investor confidence.
+              Amazon ($AMZN) reports $170 billion in revenue, a 13% YoY increase, while operating income increased to $13.2 billion, 383% from the previous year.  
+        
             </Text>
             <Divider my="4" />
             {/* Additional Blog Posts */}
@@ -48,14 +47,14 @@ const Home = () => {
           {/* Picks of the Day Section */}
           <Box flex="1" bg="gray.50" p="4" borderRadius="md">
             <Heading size="md" mb="4">
-              Picks of the Day
+              2024 Potential Outperformers AAAA
             </Heading>
-            <Text mb="2">1. Alpha Tech - Innovative solutions in AI.</Text>
+            <Text mb="2">1. $AMZN Amazon.com Inc </Text>
             <Text mb="2">
-              2. Green Energy Inc. - Leading the way in renewable resources.
+              2. $DIS Walt Disney Co. 
             </Text>
             <Text mb="4">
-              3. Global Health - Revolutionizing healthcare with technology.
+              3. $BAC Bank of America Corp
             </Text>
             {/* ... */}
           </Box>

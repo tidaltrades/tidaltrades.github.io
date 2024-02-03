@@ -54,7 +54,7 @@ const Header = () => {
               Business Research
             </MenuItem>
             <MenuItem as={Link} href="#/picks">
-              Picks of the Day
+              2024 Potential Outperformers
             </MenuItem><MenuItem as={Link} href="#/about">
               About
             </MenuItem><MenuItem as={Link} href="#/contact">
@@ -67,7 +67,7 @@ const Header = () => {
           <Link href="/" p="2">Home</Link>
           <Link href="#/blog" p="2">Blog</Link>
           <Link href="#/research" p="2">Business Research</Link>
-          <Link href="#/picks" p="2">Picks of the Day</Link>
+          <Link href="#/picks" p="2">2024 Potential Outperformers</Link>
           <Link href="#/about" p="2">About</Link>
           <Link href="#/contact" p="2">Contact</Link>
         </Flex>

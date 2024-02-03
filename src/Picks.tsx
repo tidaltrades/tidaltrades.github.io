@@ -11,7 +11,7 @@ const Picks = () => {
       <Header />
       <Container maxW="container.xl" mt="8" p={4}>
         <Heading as="h1" mb="8">
-          Picks of the Day
+          2024 Potential Outperformers 
         </Heading>
         <Box bg="gray.100" p={4} borderRadius="md" boxShadow="sm">
           <UnorderedList>

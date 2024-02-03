@@ -12,7 +12,7 @@ const Footer = () => {
           <Link href="/">Home</Link>
           <Link href="#/blog">Blog</Link>
           <Link href="#/research">Research</Link>
-          <Link href="#/picks">Picks</Link>
+          <Link href="#/picks">2024 Potential Outperformers</Link>
           <Link href="#/about">About</Link>
           <Link href="#/contact">Contact</Link>
         </VStack>
