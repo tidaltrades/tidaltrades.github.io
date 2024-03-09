@@ -3,7 +3,7 @@ import { Box, Container, Heading, Text } from "@chakra-ui/react";
 import Header from "./Header";
 import Footer from "./Footer"; 
 
-const Contact = () => {
+const Blog1 = () => {
   return (
     <Box bg="white" color="gray.700">
       <Header />
@@ -25,4 +25,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Blog1;

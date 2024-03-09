@@ -14,23 +14,23 @@ const Blog: React.FC = () => {
   const blogPosts: BlogPost[] = [
     {
       id: 1,
-      title: "Mastering the Dip: Strategies for Buying During Market Downturns",
+      title: "2024 Tidal Trades Yearly Outlook",
       excerpt:
-        "Market downturns can be scary, but they also present opportunities for savvy investors. Learn strategies to navigate the dip and potentially score big.",
+        "2024 is going to be a very interesting year starting so close to all-time highs. Big institutions are split with predictions. Some are bearish, some bullish, and an interesting amount are flat.",
       content: `Market downturns, while unsettling, can create unique opportunities for investors...
                     ...
                     ... Join us as we dive into the strategies that can help turn market turmoil into an investment advantage.`,
-      thumbnail: "/assets/blog/dip-buying.jpg",
+      
     },
     {
       id: 2,
-      title: "Identifying High-Growth Potential Stocks: Beyond the Market Buzz",
+      title: "THE SOPHISTICATED SETUP",
       excerpt:
-        "Don't get swept away by hype. Discover key metrics and analysis techniques to identify truly promising stocks with substantial growth potential.",
+        "This setup is used for both swing trading and day trading both $SPY & $QQQ as well as other large-cap equities and various ETFs.",
       content: `In a world where stock market buzz and hype can often lead investors astray...
                     ...
                     ... this post will equip you with the knowledge to make more informed decisions in the ever-evolving stock market.`,
-      thumbnail: "/assets/blog/high-growth-stocks.jpg",
+      
     },
     // ... Add additional blog post objects
   ];
@@ -60,11 +60,12 @@ const Blog: React.FC = () => {
             />
           )}
           <Heading as="h2" size="md" mb="2">
-            <Link href={`/blog/${post.id}`}>{post.title}</Link>
+          <Link href={`/blog/${post.id}`}>{post.title}</Link>
           </Heading>
           <Text fontSize="lg" mb="4">
             {post.excerpt}
           </Text>
+          {/* <Link href={`/blog/blog1`} variant="link"> */}
           <Link href={`/blog/${post.id}`} variant="link">
             Read More
           </Link>

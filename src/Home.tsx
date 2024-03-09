@@ -33,7 +33,8 @@ const Home = () => {
           {/* Blog Post Section */}
           <Box flex="2">
             <Heading as="h1" mb="4">
-              Amazon crushes another quarter, as expected 
+              Top Picks Amazon & Disney both crush quarterly earnings 
+            
             </Heading>
             <Text fontSize="lg" mb="4">
               Amazon ($AMZN) reports $170 billion in revenue, a 13% YoY increase, while operating income increased to $13.2 billion, 383% from the previous year.  
@@ -47,15 +48,16 @@ const Home = () => {
           {/* Picks of the Day Section */}
           <Box flex="1" bg="gray.50" p="4" borderRadius="md">
             <Heading size="md" mb="4">
-              2024 Potential Outperformers AAAA
+              2024 Potential Outperformers 
             </Heading>
             <Text mb="2">1. $AMZN Amazon.com Inc </Text>
             <Text mb="2">
               2. $DIS Walt Disney Co. 
             </Text>
             <Text mb="4">
-              3. $BAC Bank of America Corp
-            </Text>
+              3. $BAC Bank of America Corp </Text>
+            <Text mb="2">4. $JCI Johnson Controls Inc. </Text>
+            <Text mb="2">5. $MRO Marathon Oil Corporation </Text>
             {/* ... */}
           </Box>
         </Flex>

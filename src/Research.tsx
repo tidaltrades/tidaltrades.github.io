@@ -4,11 +4,11 @@ import Header from "./Header";
 
 const Research = () => {
   const researchArticles = [
-    { id: 1, company: "GreenTech Inc.", stockExchange: "NASDAQ", ticker: "GNT", reportsCount: 6, lastUpdate: "June 15, 2023" },
-    { id: 2, company: "BlockFinance Ltd.", stockExchange: "NYSE", ticker: "BFT", reportsCount: 5, lastUpdate: "July 2, 2023" },
-    { id: 3, company: "HealthAI Solutions", stockExchange: "LSE", ticker: "HAI", reportsCount: 7, lastUpdate: "June 28, 2023" },
-    { id: 4, company: "ShopWorld Inc.", stockExchange: "HKEX", ticker: "SWI", reportsCount: 4, lastUpdate: "June 5, 2023" },
-    { id: 5, company: "SecureNet Systems", stockExchange: "TSX", ticker: "SNS", reportsCount: 3, lastUpdate: "July 10, 2023" },
+    { id: 1, company: "Amazon.com Inc.", stockExchange: "NASDAQ", ticker: "AMZN", reportsCount: 1, lastUpdate: "December 27, 2023" },
+    { id: 2, company: "Walt Disney Co.", stockExchange: "NYSE", ticker: "DIS", reportsCount: 1, lastUpdate: "December 27, 2023" },
+    { id: 3, company: "Bank Of America", stockExchange: "NYSE", ticker: "BAC", reportsCount: 1, lastUpdate: "December 27, 2023" },
+    { id: 4, company: "Johnson Controls International PLC", stockExchange: "NYSE", ticker: "JCI", reportsCount: 1, lastUpdate: "December 27, 2023" },
+    { id: 5, company: "Marathon Oil Corporation", stockExchange: "MRO", ticker: "NYSE", reportsCount: 1, lastUpdate: "December 27, 2023" },
   ];
 
   return (
