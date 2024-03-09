@@ -7,7 +7,7 @@ import Research from './Research';
 import Picks from './Picks'; 
 import About from './About';
 import Contact from './Contact';
-import Blog1 from './Blog1'
+import BlogPost1 from './BlogPost1';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/blog" element={<Blog />} />
-          {/* <Route path="/blog/blog1" element={<Blog1 />} /> */}
+          <Route path="/blog1/" element={<BlogPost1 />} />
           <Route path="/research" element={<Research />} />  
           <Route path="/picks" element={<Picks />} />  
           <Route path="/about" element={<About />} />  

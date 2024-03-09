@@ -1,6 +1,8 @@
 import React from "react";
-import { Box, Heading, Text, Link, Divider, Image } from "@chakra-ui/react";
+import { Box, Heading, Text, Link, Divider, Image, MenuList, MenuItem } from "@chakra-ui/react";
 import Header from "./Header";
+import { Link as ChakraLink } from "@chakra-ui/react";
+import { Link as RouterLink } from "react-router-dom";
 
 interface BlogPost {
   id: number;
@@ -65,10 +67,9 @@ const Blog: React.FC = () => {
           <Text fontSize="lg" mb="4">
             {post.excerpt}
           </Text>
-          {/* <Link href={`/blog/blog1`} variant="link"> */}
-          <Link href={`/blog/${post.id}`} variant="link">
+          <ChakraLink as={RouterLink} to={`/blog${post.id}`} variant="link">
             Read More
-          </Link>
+          </ChakraLink>
           <Divider my="4" />
         </Box>
       ))}
